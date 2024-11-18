@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk, PhotoImage
+from tkinter import ttk
 
 
 # Fonction pour réinitialiser la partie
@@ -102,7 +102,7 @@ fenetre = tk.Tk()
 fenetre.title("Tic-Tac-Toe")
 
 # Logo de la fenêtre
-logo = PhotoImage(file="tic-tac-toe.png")
+logo = tk.PhotoImage(file="tic-tac-toe.png")
 fenetre.iconphoto(True, logo)
 
 # Taille de la fenêtre
